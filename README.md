@@ -6,3 +6,6 @@ This program runs on an Arduino Nano, and it controls 4 relays to turn my LAN de
 
 Initially (and upon button pres), the modem is power cycled, then the LAN is reset 3 minutes later.
 A LAN reset consists of power cycling the router and then a switch and WiFi extender a minute later.
+
+In the Arduino code, I debounce button presses and turn the button state into press and release events.
+Homemade Alarms are used to turn the devices on and off.
